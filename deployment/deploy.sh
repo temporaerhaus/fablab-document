@@ -4,9 +4,10 @@ deploydir="$(dirname $0)"
 # needs to be run from main directory
 if [[ "$TRAVIS_PULL_REQUEST" == "false" ]] && [[ "$TRAVIS_BRANCH" == "master" ]];  then
 	# read variables $encrypted_....._key and _iv, the "..." part is set with ENCYRPTION_VAR_NAME
-	key_var_name="encrypted_"$ENCYRPTION_VAR_NAME"_key"
+	key_var_name="encrypted_${ENCRYPTION_VAR_NAME}_key"
+	echo taking key from variable $key_var_name
 	key=${!key_var_name}
-	iv_var_name="encrypted_"$ENCYRPTION_VAR_NAME"_iv"
+	iv_var_name="encrypted_${ENCRYPTION_VAR_NAME}_iv"
         iv=${!iv_var_name}
 	openssl aes-256-cbc -K $key -iv $iv \
 		-in deployment/deployment_private_key.id_rsa.enc -out deployment/deployment_private_key.id_rsa -d
