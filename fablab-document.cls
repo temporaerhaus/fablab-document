@@ -19,6 +19,8 @@
 \usepackage{hyperref}
 \hypersetup{colorlinks=false,urlbordercolor=blue,linkbordercolor=red}
 
+\usepackage[section]{placeins} % float barrier to prevent floats to move further than sections
+
 \usepackage{ifthen}
 \ifthenelse{\isundefined{\basedir}}{
 	
