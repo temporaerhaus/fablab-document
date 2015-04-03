@@ -1,4 +1,4 @@
-\ProvidesClass{fablab-aushang}
+\ProvidesClass{fablab-document}
 
 \PassOptionsToClass{\CurrentOption}{scrartcl} % Optionen wie landscape an scrartcl weitergeben
 \LoadClass[a4paper]{scrartcl}
