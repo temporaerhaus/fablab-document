@@ -7,7 +7,7 @@ examples for device instructions
 * in your project, include [fablab-document](https://github.com/fau-fablab/fablab-document) as git submodule.
 
 ```bash
-git submodule add git@github.com:fau-fablab/fablab-document.git -b master
+git submodule add git@github.com:fau-fablab/fablab-document.git fablab-document -b master
 ```
 
 * copy [`Makefile.example`](Makefile.example) to the main directory and adjust `TARGET`
