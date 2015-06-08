@@ -33,7 +33,7 @@
 \newcommand{\todoUnwichtig}[1]{\textbf{TODO: #1} }              %command for lower prio todos
 \newcounter{mycomment}
 \newcommand{\mycomment}[2][]{%
-											% initials of the author (optional) + note in the margin
+% initials of the author (optional) + note in the margin
 \refstepcounter{mycomment}%
 {%
 \setstretch{0.7}% spacing
