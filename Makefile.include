@@ -91,7 +91,7 @@ else ifneq ($(wildcard .svn/entries),)
 endif
 
 # .PHONY names all targets that aren't filenames
-.PHONY: all clean pdf view snapshot distill distclean
+.PHONY: all clean pdf view snapshot distill distclean clean-output copy-output
 
 all: pdf copy-output $(AFTERALL)
 
@@ -147,7 +147,7 @@ distill: $(PDFTARGETS:.pdf=.distilled.pdf)
 distclean: clean
 	$(RM) $(PDFTARGETS) $(PDFTARGETS:.pdf=.distilled.pdf) $(EXTRADISTCLEAN)
 
-clean:
+clean: clean-output
 	$(RM) $(foreach T,$(TARGETS), \
 		$(T).out $(T).blg $(T).bbl \
 		$(T).lof $(T).lot $(T).toc $(T).idx \
@@ -158,3 +158,8 @@ clean:
 copy-output: pdf
 	mkdir -p output
 	cp $(PDFTARGETS) output/
+
+clean-output:
+	mkdir -p output
+	find output/ -name "*.pdf" -delete
+	
