@@ -143,5 +143,7 @@ Quelltext und Liste der Autoren auf GitHub: \url{https://github.com/fau-fablab/#
 Verbesserungsvorschläge gerne auch an \href{mailto:kontakt@fablab.fau.de}{kontakt@fablab.fau.de}.
 
 Hinweis zu Sicherheitseinweisungen: Bitte beachte, dass Arbeitsschutz nicht per Copy-Paste erledigt werden kann, sondern jede Einweisung kritisch überprüft und auf den jeweiligen Einsatzzweck angepasst werden muss.
+
+Dieses Dokument stammt aus fau-fablab/#1@\Revision{}.
 \normalsize
 }
