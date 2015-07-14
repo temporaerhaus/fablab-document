@@ -30,7 +30,7 @@
 %%%%%%%%%%% config and macros for todonotes %%%%%%%%%%%
 \usepackage[colorinlistoftodos,prependcaption]{todonotes}       %package todonotes for todo notes
 \presetkeys{todonotes}{inline,backgroundcolor=red}{}            %configure todonotes
-\newcommand{\todoUnwichtig}[1]{\textbf{TODO: #1} }              %command for lower prio todos
+\newcommand{\todoUnwichtig}[1]{\textbf{\color{red}TODO: #1}     %command for lower prio todos
 \newcounter{mycomment}
 \newcommand{\mycomment}[2][]{%
 % initials of the author (optional) + note in the margin
