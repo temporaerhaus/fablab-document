@@ -3,7 +3,7 @@ $Geraet Einweisung
 
 Einweisung des [FAU FabLab](https://fablab.fau.de) in [$Geraet](https://fablab.fau.de/tool/$geraet).
 
-Die neueste Version der Einweisung aus [github](https://github.com/fau-fablab/$geraet-einweisung) ist als PDF unter https://user.fablab.fau.de/~buildserver/$geraet-einweisung/Einweisung_$Geraet.pdf abrufbar.
+Die neueste Version der Einweisung aus [github](https://github.com/fau-fablab/$geraet-einweisung) ist als PDF unter https://brain.fablab.fau.de/build/$geraet-einweisung/Einweisung_$Geraet.pdf abrufbar.
 
 auschecken
 ----------
@@ -14,7 +14,7 @@ git clone --recursive git@github.com:fau-fablab/$geraet-einweisung.git
 
 Technische Details zum Buildserver siehe auf macgyver `/home/buildserver/README`
 
-[![Build Status](https://user.fablab.fau.de/~buildserver/$geraet-einweisung/status.svg)](https://user.fablab.fau.de/~buildserver/$geraet-einweisung/)
+[![Build Status](https://brain.fablab.fau.de/build/$geraet-einweisung/status.svg)](https://brain.fablab.fau.de/build/$geraet-einweisung/)
 
 Lizenz
 ------
