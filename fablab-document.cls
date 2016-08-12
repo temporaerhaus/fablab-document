@@ -3,7 +3,8 @@
 \PassOptionsToClass{\CurrentOption}{scrartcl} % Optionen wie landscape an scrartcl weitergeben
 \LoadClass[a4paper]{scrartcl}
 
-\usepackage[utf8x,utf8]{inputenc}     %UTF-8 Zeichen möglich
+\usepackage[T1]{fontenc} % interne Schriftkodierung von Tex
+\usepackage[utf8]{inputenc}     %UTF-8 Zeichen möglich
 \usepackage{lmodern}		% hübscherer Font
 
 \usepackage[ngerman]{babel}     %Deutsche Zahlen-, Datumsformate
