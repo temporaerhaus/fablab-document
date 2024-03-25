@@ -4,10 +4,10 @@ How to deploy other documents
 examples for device instructions
 --------------------------------
 
-* in your project, include [fablab-document](https://github.com/verschwoerhaus/fablab-document) as git submodule.
+* in your project, include [fablab-document](https://github.com/temporaerhaus/fablab-document) as git submodule.
 
 ```bash
-git submodule add git@github.com:verschwoerhaus/fablab-document.git fablab-document -b master
+git submodule add git@github.com:temporaerhaus/fablab-document.git fablab-document -b master
 ```
 
 * copy [`Makefile.example`](Makefile.example) to the main directory and adjust `TARGET`
@@ -38,4 +38,3 @@ cp fablab-document/gitignore.example .gitignore
 make
 ```
 
-* add the repository to the buildserver, see `macgyver.fablab.fau.de:/home/buildserver/README`
